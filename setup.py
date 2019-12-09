@@ -42,6 +42,6 @@ setup(
     ],
     keywords=['django admin choices dynamic'],
     packages=find_packages(exclude=['tests', 'tests.*']),
-    install_requires=['Django>=1.6,<1.9'],
+    install_requires=['Django>=1.6,<3.1'],
     include_package_data=True,
 )
